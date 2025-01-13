@@ -1,11 +1,11 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
 
 let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'Escolha um número de 1 e 30';
+paragrafo.innerHTML = 'Escolha um número de 1 e 100';
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
